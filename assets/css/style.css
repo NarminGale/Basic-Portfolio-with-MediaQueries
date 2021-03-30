@@ -238,7 +238,7 @@ button {
   }
   .projects .my-img {
     width: 100% !important;
-    height: 390px;
+    height: 100%;
     margin-bottom: 2.7rem;
   }
   .projects .my-img:first-child {
@@ -277,6 +277,7 @@ button {
   }
   .projects .my-img {
     width: 47% !important;
+    height: 100%;
     margin-bottom: 2.7rem;
   }
 }
