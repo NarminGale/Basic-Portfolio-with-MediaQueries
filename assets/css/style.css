@@ -220,6 +220,7 @@ button {
   }
   .s-cont {
     padding-top: 1rem;
+    width: 95%;
   }
   .aboutme .my-img {
     height: 390px !important;
@@ -235,8 +236,16 @@ button {
     width: 100%;
     margin-top: 2.5rem;
   }
+  .projects .my-img {
+    width: 100% !important;
+    height: 390px;
+    margin-bottom: 2.7rem;
+  }
+  .projects .my-img:first-child {
+    margin-top: 0.8rem;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 639px) and (max-width: 768px) {
   header > .container,
   .s-cont.container {
     width: 95%;
@@ -263,6 +272,13 @@ button {
     width: 100%;
     margin-top: 2.5rem;
   }
+  .projects {
+    margin-top: 2.5rem !important;
+  }
+  .projects .my-img {
+    width: 47% !important;
+    margin-bottom: 2.7rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -281,5 +297,9 @@ button {
     float: none;
     margin-right: 0;
     margin-bottom: 1.2rem;
+  }
+  .projects .my-img {
+    width: 100% !important;
+    height: 300px;
   }
 }
